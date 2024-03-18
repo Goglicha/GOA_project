@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  width: 100%;
+}
+.main_photo{
+  width: 25%;
+  margin: 6% 4% 3% 20%;
+}
+.second_container{
+  margin-top: 130px;
+}
+.second_container h1{
+  font-family:  sans-serif;
+  font-size: 160%;
+  padding-top: 2%;
+}
+.second_container h2{
+  font-family:  sans-serif;
+  font-size: 160%;
+  text-align: center;
+  padding-top: 2% ;
+}
+.second_container p{
+  padding-top: 5%;
+  color:red;
+}
+.E-Mail_container{
+  padding-top: 5%;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Password_container{
+  padding-top: 4%;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.checkbox_container{
+  padding-top: 5%;
+  cursor: pointer;
+}
+.checkbox_container label{
+  font-size: 13px;
+}
+.button{
+  padding-top: 5%;
+}
+.button [type="submit"]{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #db7b7b;
+  border-radius: 4px;
+  color: red;
+  cursor: pointer;
+}
+h5{
+  color: rgb(219, 89, 89);
+  padding-top: 5%;
+  text-align: center;
+  font-size: 11px;
+  font-family:helvetica;
+}
+h6{
+  color: rgb(67, 94, 214);
+  padding-top: 5%;
+  text-align: center;
+  font-size: 11px;
+  font-family:helvetica;
+} 
+
+
