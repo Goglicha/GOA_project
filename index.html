@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="head_conteiner">
+    <h1><span>Michael </span> Page</h1>
+    <span class="blue_section" class="submit_CV" >
+      <h2>Submit CV</h2>
+      <h6 class="blue_section">Become discoverable for all of our roles</h6>
+    </span>
+  </div>
+  <div class="main_container">
+    <h2>Personal details</h2>
+    <h5 class="instruction">Please complete the below form and attach a CV</h5>
+    <div>
+      <form action="/action_page.php">
+        <h5 id="name_of_forms">Email address</h5>
+        <label for="email"></label>
+        <input type="email" id="email" name="email"/>
+      </form>
+    </div>
+    <div>
+      <form action="/action_page.php">
+        <h5 id="name_of_forms">First name</h5>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname"/>
+      </form>
+    </div>
+    <div>
+      <form action="/action_page.php">
+        <h5  id="name_of_forms">Last name</h5>
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lname"/>
+      </form>
+    </div>
+    <div>
+      <form action="/action_page.php">
+        <h5  id="name_of_forms">Phone number</h5>
+        <label for="Phone"></label>
+        <input type="tel" id="Phone" name="Phone"/>
+      </form>
+    </div>
+    <div>
+      <h5 class="second_instruction">Please include your country and area code</h5>
+      <form action="/action_page.php">
+        <h5  id="name_of_forms">What is your postcode?</h5>
+        <input type="text" id="myText" name="zip_code" placeholder="Enter postcode"/>
+      </form>
+    </div>
+    <div class="checkbox_container">
+      <form action="/action_page.php">
+        <input type="checkbox" id="postcode" name="postcode">
+        <label for="Remember" class="centered-label"> I don't have UK postcode</label>
+      </form>
+    </div>
+    <div class="CV_container">
+      <h5>Upload CV</h5>
+      <form class="form_for_files" action="/upload" method="post" enctype="multipart/form-data">
+        <label for="fileUpload" class="button-label"><h5>upload CV</h5></label>
+        <input type="file" id="fileUpload" name="fileUpload" class="file-input">
+      </form>
+      <img src="./down.png" alt="down_arrow" class="arrow-icon">
+    </div>
+    <p class="last_instruction">select CV file(TXT, PDF or Word DOC)</p>
+    <button><a href="../GOA PRO 3/index.html" target="_blank">Next</a></button>
+  </div>
+  <div class="third_container">
+    <p>Please click here to see our Standard Conditions for Recruitment Services. By submitting your CV you are agreeing to our <a href="./index2.html" target="_blank"> Terms and Conditions</a> and consenting to Michael Page International processing your personal details in relation to potential job vacancies.</p>
+    <p>We will use the personal information that you have submitted to us in order to consider your application for the relevant role.</p>
+    <p> privacy is important to us. Please click here for our <a href="./index3.html" target="_blank">Privacy Policy</a> which explains the purposes for which we will use your personal information and the ways in which we will handle and retain your information. It also explains the rights you have in relation to your information, and how to contact us with any queries or requests.</p>
+  </div>
+</div>
+  <div class="sign_in">
+    <a href="../GOA PRO 3/" target="_blank">sign in </a> 
+  </div>
+</body>
+</html>
