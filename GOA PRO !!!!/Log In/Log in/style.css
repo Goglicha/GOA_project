@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  position:relative;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-size: 20px;
+  color: #2c2828;
+  font-weight: 400;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.second_container {
+  position: absolute;
+  margin: 10% auto;
+  width: 500px;
+  height: 550px;
+  background: #e2e0e0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(228, 207, 207, 0.4);
+  opacity: 0.9;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 500px;
+  height: 500px;
+}
+h1 {
+  margin: 0 0 50px 0;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #414444;
+}
+input[type="email"],
+input[type="password"] {
+  display: block;
+  margin: 15px 60px;
+  padding: 20px;
+  width: 300px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-weight: 400;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #131414;
+  color: #d9e6e3;
+  transition: 0.2s ease-in;
+}
+input[type="submit"] {
+  margin-top: 30px;
+  width: 300px;
+  margin: 20px 60px;
+  height: 40px;
+  background: #090a0a;
+  border: none;
+  color: #f5efef;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+.checkbox_container{
+  cursor: pointer;
+  padding: 20px 63px;
+}
+.checkbox_container label{
+  font-size: 16px;
+  color: #414444;
+}
+
+.button [type="submit"]{
+  margin-top: 30px;
+  width: 300px;
+  margin: 20px 60px;
+  height: 40px;
+  background: #090a0a;
+  border: none;
+  color: #f5efef;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+h5{
+  color: rgb(219, 89, 89);
+  padding: 20px 120px;
+  font-size: 11px;
+  font-family:helvetica;
+}
+h6{
+  color: rgb(67, 94, 214);
+  padding: 10px 15px;
+  font-size: 11px;
+  font-family:helvetica;
+}
